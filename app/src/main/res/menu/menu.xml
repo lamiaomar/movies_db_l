@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <group
+        android:id="@+id/SORT"
+        android:title="@string/sort"
+        app:showAsAction="always"
+        android:icon="@drawable/sort_icon">
+
+        <item android:id="@+id/sortByLetter"
+            android:title="@string/sort_alpha" />
+
+        <item android:id="@+id/sortByRate"
+            android:title="@string/top_rated"
+            android:icon="@drawable/ic_baseline_date_range_24"
+            />
+
+        <item android:id="@+id/sortByRelaseYear"
+            android:title="@string/recent_movies"/>
+
+        <item android:id="@+id/fillterToAction"
+            android:title="@string/action"/>
+
+        <item android:id="@+id/fillterToDrama"
+            android:title="@string/drama"/>
+
+        <item android:id="@+id/fillterToComedy"
+            android:title="@string/comedy"/>
+
+        <item android:id="@+id/fillterToFamily"
+            android:title="@string/family"/>
+
+        <item android:id="@+id/fillterToAnimation"
+            android:title="@string/animation"/>
+    </group>
+
+</menu>

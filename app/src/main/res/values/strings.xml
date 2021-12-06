@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">movies_db</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="details">Details</string>
+    <string name="sort_alpha">Sort Alpha</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="sort">sort</string>
+    <string name="recent_movies">Recent Movies</string>
+    <string name="action">Action</string>
+    <string name="drama">Drama</string>
+    <string name="comedy">Comedy</string>
+    <string name="family">Family</string>
+    <string name="animation">Animation</string>
+</resources>
